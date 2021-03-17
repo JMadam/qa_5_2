@@ -67,9 +67,4 @@ public class TestPracticeForm {
         $("#closeLargeModal").click();
     }
 
-    @AfterAll
-    static void HoldBrowser() {
-        Configuration.holdBrowserOpen = true;
-
-    }
 }
